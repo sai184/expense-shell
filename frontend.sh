@@ -1,4 +1,4 @@
-log=/tmp/expense.log
+source log.sh
 echo installing nginx
 dnf install nginx -y  >>$log
 echo placing expenselog file
